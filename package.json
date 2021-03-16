@@ -1,0 +1,46 @@
+{
+  "name": "solid-tribble",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel serve app/index.html",
+    "build": "parcel build app/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shayan-To/solid-tribble.git"
+  },
+  "author": "",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/Shayan-To/solid-tribble/issues"
+  },
+  "homepage": "https://github.com/Shayan-To/solid-tribble#readme",
+  "dependencies": {
+    "@emotion/react": "^11.4.0",
+    "@emotion/styled": "^11.3.0",
+    "@material-ui/core": "^5.0.0-alpha.32",
+    "@material-ui/icons": "^5.0.0-alpha.29",
+    "@material-ui/lab": "^5.0.0-alpha.32",
+    "classnames": "^2.3.1",
+    "core-js": "^3.12.0",
+    "preact": "^10.5.13",
+    "sanitize.css": "^12.0.1",
+    "tslib": "^2.2.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.0-nightly.655",
+    "@types/react": "^17.0.5",
+    "@types/react-dom": "^17.0.3",
+    "parcel": "^2.0.0-nightly.653",
+    "prettier": "^2.2.1",
+    "sass": "^1.32.12",
+    "shx": "^0.3.3",
+    "typescript": "^4.2.4"
+  },
+  "alias": {
+    "react": "preact/compat",
+    "react-dom/test-utils": "preact/test-utils",
+    "react-dom": "preact/compat"
+  }
+}
